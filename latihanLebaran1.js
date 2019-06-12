@@ -5,7 +5,8 @@ function getSquare(param) {
         angka[x] *= angka[x];
     }
 
-    return angka.join('');
+    angka = angka.join('');
+    return parseInt(angka);
 }
 
 console.log(getSquare(121))
